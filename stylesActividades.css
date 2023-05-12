@@ -1,0 +1,175 @@
+header {
+    height: 800px;
+    background: url(img/BG_Header_Act.jpg) no-repeat top center;;
+}
+
+.sec {
+    max-width: 1366px;
+    background-color: #f1f1f1;
+    padding-bottom: 0.5rem;
+}
+
+.sec figure {
+    margin: 0;
+    height: 243px;
+}
+
+.h2sec {
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 400;
+    font-size: 4.25rem;
+    margin: 0 auto;
+    padding-top: 4rem;
+    color: #ff6f00;
+    max-width: 820px;
+    text-align: center;
+}
+
+.p-intro {
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 3rem 0;
+    font-size: 1.25rem;
+    color: #1b448c;
+    letter-spacing: 0.025em;
+}
+
+.card-flex {
+    max-width: 1200px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card-1 {
+    max-width: 380px;
+    height: 580px;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    padding-bottom: 1.75rem;
+}
+
+.card-1 img {
+    border-bottom: solid #e6e6e6 2px;
+    padding-bottom: 15rem;
+}
+
+.card-1 h3 {
+    font-size: 1.9rem;
+    font-weight: 800;
+    color: #1b448c;
+    letter-spacing: 0.025em;
+    padding-top: 1rem;
+    line-height: 2.2rem;
+}
+
+.w310 {
+    width: 310px;
+    margin: 0 auto;
+}
+
+.card-1 p {
+    font-size: 1rem;
+    color: #7f7e7e;
+    font-weight: 400;
+    padding-top: 1rem;
+    letter-spacing: 0.025em;
+}
+
+.precio {
+    align-self: flex-end;
+    margin-top: auto;
+    margin-right: 2.25rem;
+    line-height: 30px;
+}
+
+.precio p {
+    text-align: end;
+    width: 200px;
+    margin: 0;
+    padding: 0;
+}
+
+.precio .precio-valor {
+    color: #1b448c;
+    font-size: 2.25rem;
+    font-weight: 900;
+}
+
+.boton {
+    width: 175px;
+    height: 35px;
+    margin: 3rem auto 0 auto;
+    background-color: #1b448c;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.boton a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+
+.boton p {
+    margin: 0;
+    width: 175px;
+    line-height: 35px;
+    text-align: center;
+    vertical-align: center;
+}
+
+.card-link {
+    text-decoration: none;
+}
+
+.card-link:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+
+.card-2 {
+    max-width: 380px;
+    height: 445px;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+}
+
+.card-2 img {
+    border-bottom: solid #e6e6e6 2px;
+    padding-bottom: 15rem;
+}
+
+.card-2 h3 {
+    font-size: 1.9rem;
+    font-weight: 800;
+    color: #1b448c;
+    letter-spacing: 0.025em;
+    padding-top: 1rem;
+    line-height: 2.2rem;
+}
+
+.card-2 p {
+    font-size: 1rem;
+    color: #7f7e7e;
+    font-weight: 400;
+    padding-top: 1rem;
+    letter-spacing: 0.025em;
+}
+
+.pb {
+    padding-bottom: 7rem;
+}

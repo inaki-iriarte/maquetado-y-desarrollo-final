@@ -1,0 +1,6 @@
+Realizado en 1366px de ancho total y 1200px de ancho visual cumpliendo con el diseño hecho para el trabajo de diseño de interfaces.
+
+Los jpg Diseño_Home, Diseño_Actividades y Diseño_Comida son los entregados para el trabajo anteriormente nombrado y los utilizados como guía para el maquetado.
+
+Enlaces: Solo los enlaces de actividades y comida y bebida en la barra de navegación tienen destino a las páginas correspondientes, los demás (transporte, alojamiento, eventos) no tienen destino porque no fueron realizadas dichas páginas. En cuanto a los enlaces en las diferentes cards tanto en actividados como en comida y bebida solo ingrese los links a páginas oficiales a modo de ejemplo.
+

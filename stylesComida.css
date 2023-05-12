@@ -1,0 +1,171 @@
+header {
+    height: 800px;
+    background: url(img/BG_Header_Com.jpg) no-repeat top center;;
+}
+
+h1 {
+    line-height: 180px;
+    height: 360px;
+}
+
+.h2sec {
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 400;
+    font-size: 4.25rem;
+    margin: 0 auto;
+    padding-top: 3.5rem;
+    color: #ff6f00;
+    max-width: 480px;
+    text-align: center;
+}
+
+.p-intro {
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 3rem 0 5rem 0;
+    font-size: 1.25rem;
+    color: #1b448c;
+    letter-spacing: 0.025em;
+}
+
+.flex-sec1 {
+    max-width: 1000px;
+    height: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pb6rem {
+    padding-bottom: 6rem;
+}
+
+.card-1 {
+    width: 483px;
+    height: 483px;
+    background-color: black;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.card-1 figure {
+    margin: 0;
+    height: 483px;
+}
+
+.card-1 img {
+    transition: 0.5s
+}
+
+.flex-end {
+    align-self: flex-end;
+}
+
+.relative {
+    position: relative;
+}
+
+.card-texto {
+    position: absolute;
+    width: 100%;
+    height: 210px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5rem 1.7rem;
+    background-color: rgba(255, 111, 0, 0.8);
+    top: 102%;
+    transform: translateY(-50%);
+    transition: 0.5s
+}
+
+.card-texto h3 {
+    margin: 0;
+    color: white;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+
+.card-texto p {
+    margin: 0;
+    color: white;
+    padding-top: 3rem;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    transition: 1s;
+}
+
+.card-1:hover .card-texto{
+    top: 80%;
+    transition: 0.5s;
+}
+
+.card-1:hover img {
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+.card-1:hover .card-texto p {
+    padding-top: 1rem;
+    transition: 1s;
+}
+
+.bg-img {
+    height: 900px;
+    background: url(img/comida/BG_Seccion2.jpg) no-repeat center center;
+}
+
+.bg-img a {
+    text-decoration: none;
+}
+
+.flex-sec2 {
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+}
+
+.card-2 {
+    width: 277px;
+    height: 490px;
+    border-radius: 15px;
+    background-color: white;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+}
+
+.card-2:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+    transition: 0.5s;
+}
+
+.card-2 figure {
+    margin: 0;
+    height: 273px;
+}
+
+.w230 {
+    margin: 1rem auto;
+    width: 230px;
+}
+
+.card-2 h3 {
+    color: #1b448c;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.card-2 p {
+    font-size: 1rem;
+    color: #808080;
+    line-height: 20px;
+}

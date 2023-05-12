@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1366px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.menu {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2.75rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu ul a {
+    font-weight: 300;
+    font-size: 1.25rem;
+    text-decoration: none;
+    margin-left: 2rem;
+    color: #ff6f00;
+}
+
+.menu ul a:hover {
+    text-decoration: underline #ff6f00;
+    text-underline-position: under;
+}
+
+.logo {
+    margin: 0;
+}
+
+.titulo{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titulo h2 {
+    font-size: 1.9rem;
+    font-weight: 400;
+    color: white;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 10rem;
+    font-weight: 400;
+    color: white;
+    margin: 0;
+    height: 180px;
+    overflow: hidden;
+}
+
+.footer {
+    max-width: 1366px;
+    height: 300px;
+    background-color: #1b448c;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+
+.footer figure {
+    margin: 0;
+}
+
+.w590 {
+    max-width: 590px;
+    height: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+#emblema {
+    border-bottom: solid white 2px;
+    max-width: 71px;
+    padding-bottom: 0.5rem;
+}
+
+.footer nav {
+    width: 590px;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer ul a {
+    font-weight: 300;
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+}
+
+.redes {
+    width: 340px;
+}
+
+.redes ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.redes li {
+    max-height: 28px;
+}

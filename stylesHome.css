@@ -1,0 +1,228 @@
+header {
+    height: 1050px;
+    background: url(img/Header_Border.png) no-repeat bottom center, url(img/BG_Header_Home.jpg) no-repeat top center;
+}
+
+.s1 {
+    max-width: 1366px;
+    margin-left: auto;
+    margin-right: auto;
+    background: url(img/BG_Mapa.png) no-repeat top right, url(img/BG_S1.png) no-repeat bottom center;
+    height: 1350px;
+}
+
+.s1-contenido {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.s1-contenido h2 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 6rem;
+    font-weight: 400;
+    color: #ff6f00;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    line-height: 75px;
+    overflow: hidden;
+    padding-bottom: 3rem;
+}
+
+.s1-contenido h2 span {
+    font-size: 2.5rem;
+}
+
+.bandera {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    max-width: 380px;
+    height: 32px;
+    background: url(img/Bandera.jpg) no-repeat center center;
+}
+
+.bandera::before, .bandera::after {
+    content: "";
+    flex: 1 1;
+    border-bottom: solid 2px #b01623;
+    margin: auto;
+}
+
+.bandera::before {
+    margin-right: 6rem;
+}
+
+.linea {
+    margin: 1rem auto 12.5rem auto;
+    max-width: 580px;
+    display: flex;
+    content: "";
+    border-bottom: solid 2px #1b448c;
+}
+
+.s1-p {
+    max-width: 790px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #1b448c;
+    font-size: 1.25rem;
+    letter-spacing: 0.025em;
+    padding: 3rem 0;
+}
+
+.s1-p p{
+    margin: 0;
+}
+
+.s1-p span {
+    font-size: 1.5rem;
+}
+
+#h4rem {
+    font-size: 4.25rem;
+    margin-top: 5rem;
+}
+
+.s1-imp {
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.s1-card figure {
+    margin: 0;
+    height: 218px;
+}
+
+.s1-card {
+    max-width: 277px;
+    height: 350px;
+    overflow: hidden;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    transition-duration: 0.5s;
+}
+
+.s1-card:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    transition-duration: 0.5s;
+}
+
+.s1-card h3 {
+    margin: 0;
+    padding: 1rem 1.25rem 0.1rem 1.25rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #1b448c;
+}
+
+.s1-card p {
+    margin: 0;
+    padding: 0rem 1.25rem 1.5rem 1.25rem;
+    font-size: 1rem;
+    color: #4065a7;
+}
+
+.s1-card a {
+    font-size: 1rem;
+    color: #ff6f00;
+    text-decoration: underline #ff6f00;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 5px;
+}
+
+.ver-y-hacer {
+    max-width: 1366px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 700px;
+    background: url(img/BG_S2_A1.jpg) no-repeat center center;
+}
+
+.box-a1 h2 {
+    margin: 0;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 400;
+    color: white;
+    font-size: 4.5rem;
+    padding-bottom: 2rem;
+}
+
+.box-a1 p {
+    max-width: 380px;
+    margin: 0;
+    color: white;
+    font-weight: 300;
+    font-size: 1.15rem;
+    line-height: 1.5rem;
+}
+
+.box-a1 p strong {
+    font-weight: 700;
+}
+
+.box-a1 {
+    max-width: 560px;
+    height: 700px;
+    background-color: rgba(237, 103, 0, 0.8);
+    padding: 3rem 83px;
+}
+
+.cta-a1 {
+    text-decoration: none;
+}
+
+.cta-a1 p {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    color: white;
+    border-bottom: solid white 2px;
+    padding-bottom: 4px;
+    transition-duration: 0.5s;
+}
+
+.cta-a1 p:hover {
+    padding: 1rem 1.5rem;
+    border-bottom: none;
+    color: #ff6f00;
+    transition-duration: 0.5s;
+}
+
+#actividades-link {
+    background: url(img/Flecha.png) no-repeat 75% center;
+}
+
+#actividades-link:hover {
+    background: url(img/Flecha_N.png) no-repeat 82% center;
+    background-color: white;
+}
+
+.comida {
+    max-width: 1366px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 700px;
+    background: url(img/BG_S2_A2.jpg) no-repeat center center;
+}
+
+.invertido {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#comida-link {
+    background: url(img/Flecha.png) no-repeat 82% center;
+}
+
+#comida-link:hover {
+    background: url(img/Flecha_N.png) no-repeat 89% center;
+    background-color: white;
+}
